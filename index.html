@@ -496,29 +496,34 @@
 
             <h4>Send us a Message</h4>
 
-            <form>
+            <form action="https://formsubmit.co/bismillahkakararyan.work@gmail.com" method="POST">
               <div class="dbl-field">
                 <div class="field">
-                  <input type="text" name="name" placeholder="Enter your name" required>
+                  <input type="text" name="Name" placeholder="Enter your name">
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="_template" value="table">
+                  <input type="hidden" name="_subject" value="Contact Form Query to Bismillah Kakar Aryan">
+                  <input type="hidden" name="_autoresponse"
+                    value="Thanks For sending us a message, we have received your query and will soon reply you!">
                   <i class='fas fa-user'></i>
                 </div>
                 <div class="field">
-                  <input type="text" name="email" placeholder="Enter your email" required>
+                  <input type="text" name="Email" placeholder="Enter your email">
                   <i class='fas fa-envelope'></i>
                 </div>
               </div>
               <div class="dbl-field">
                 <div class="field">
-                  <input type="text" name="phone" placeholder="Enter your phone">
+                  <input type="text" name="Phone" placeholder="Enter your phone">
                   <i class='fas fa-phone-alt'></i>
                 </div>
                 <div class="field">
-                  <input type="text" name="website" placeholder="Enter your website">
+                  <input type="text" name="Website" placeholder="Enter your website">
                   <i class='fas fa-globe'></i>
                 </div>
               </div>
               <div class="message">
-                <textarea placeholder="Write your message" name="message" required></textarea>
+                <textarea placeholder="Write your message" name="Message"></textarea>
                 <i class="material-icons"></i>
               </div>
               <div class="button-area">
@@ -616,9 +621,11 @@
 
           <div>
             <form class="footer-input-wrapper" action="https://formsubmit.co/bismillahkakararyan.work@gmail.com"
-              method="POST" netlify>
+              method="POST">
               <input placeholder="  Enter your email..." class="footer-input" type="email" name="email" required><br>
               <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_subject" value="Newsletter Subscription of Bismillah Kakar Aryan">
               <button onclick="removeText()" id="submit_btn" type="submit">
                 Send
               </button>
