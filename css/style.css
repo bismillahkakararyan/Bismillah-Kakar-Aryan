@@ -264,7 +264,7 @@ nav .container {
   align-items: center;
 }
 #logo {
-  font-family: "Halimun";
+  font-family: "Halimun" !important;
   font-weight: 600;
   z-index: 2;
   font-size: 1.6rem;
